@@ -18,6 +18,17 @@ These are collected and created scripts for use in the Unity 5.x game engine.
 2.  Change the script to use the unique name of the GameObject you would like to disappear/reappear.
 3.  If using a default object like 'Box', you will need to put the scale that you would like it to be when it 'appears'.  Otherwise, you can make any GameObject/mesh appear with (1,1,1).
 
+#### SoundTrigger.cs
+
+1.  Drag an audio file onto your GameObject.
+2.  Create a collider for your player and check "is trigger".
+3.  Drag the soundtrigger.cs file onto the same GameObject.
+
+#### SoundTrigger_Button.cs
+
+1.  Follow steps 1 and 2 above for regular soundtrigger.cs interaction.
+2.  Add SoundTrigger_Button.cs to the GameObject and edit the .cs file if you would like a specific button.  The default button is 'e'.
+
 #### TeleportPlayer.cs
 
 1.	Drag the TeleportPlayer.cs file onto an object that will teleport you, and make sure that “Instant Teleport” is checked in the properties.
