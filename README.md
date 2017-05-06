@@ -12,6 +12,15 @@ These are collected and created scripts for use in the Unity 5.x game engine.
 
 1.  Drag this script onto an object which has a Movie Texture applied.
 
+#### PopupText.cs
+
+1.  Create a UI Canvas and Text object.
+2.  Set Canvas render mode to "world space", resize and place where you would like it to pop up.
+3.  Type your desired text in the Text object to see how it will look, and place it.
+4.  Drag PopupText.cs onto your main object which has a collider trigger, make the Canvas>Text a child of that GameObject.
+5.  Type what you would like your text to say in the script "string" box and set the fade amount to your desired speed.  2 works well for me.
+6.  If you add more popup events, make a copy of the script and change your new Text UI GameObject to a unique name, change that name in the new script on the line: GameObject.Find ("your text object name")
+
 #### SpookyWall.cs
 
 1.  Create a collider box trigger and drag this script onto it.
